@@ -1,0 +1,341 @@
+header{
+   position: relative;
+    background-color:#FEC5C5;
+    height: 130px;
+   padding-bottom: 20px;
+}
+
+body{
+    margin:0;
+}
+#logo{
+    position: absolute;
+width: 12%;
+
+}
+nav{
+    position: absolute;
+    margin-top:90px;
+    text-align: right;
+    margin-left: 900px;
+   
+ 
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+#maindiv{
+    position: relative;
+    margin-top: -22px;
+    background-image:url("img/mm33.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top:16px;
+}
+#opac{
+    margin-top: 22px;
+    padding-top: 22px;
+    position: absolute;
+    font-family: 'Lora', serif;
+    width: 60%;
+    background-color:#D8CBCB;
+    color:black;
+    opacity: 0.66;
+    text-align: center;
+    height:440px;
+    margin-left: 220px;
+    
+}
+#AboutusP{
+    width:60%;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    margin-left: 150px;
+    font-weight: bold;
+    
+}
+footer{
+    position: relative;
+    padding-top: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+    margin-top: -20px;
+    height:70px;
+}
+.h31{
+    position: absolute;
+}
+#ContactusDiv{
+    position: relative;
+    margin-top: -22px;
+    background-image:url("img/pu.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top:16px;
+}
+#opac2{
+    font-family: 'Lora', serif;
+    width: 50%;
+    background-color:#D8CBCB;
+    color:black;
+    opacity: 0.66;
+    text-align: center;
+    height:500px;
+    margin-left: 270px;
+    margin-bottom:40px;
+}
+#contactP{
+    width:60%;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    margin-left: 150px;
+}
+#h11{
+    padding-bottom: 20px;
+}
+.p2{
+    
+    text-align: left;
+padding-left: 170px;
+padding-bottom: 20px;
+font-weight: bold;
+}
+#Menudiv{
+    position: relative;
+    margin-top: -22px;
+    background-image:url("img/ncn.png");
+    background-size: cover;
+    height: 690px;
+    padding-top:16px;
+}
+#opac3{
+    font-family: 'Lora', serif;
+    width: 70%;
+    background-color:#D8CBCB;
+    color:black;
+    opacity: 0.85;
+    text-align: center;
+    height:590px;
+    margin-left: 190px;
+    margin-bottom:40px;
+}
+
+    
+
+#C1{width: 10%;
+position: absolute;
+margin-left:50px;
+}
+
+#C2{width: 10%;
+    position: absolute;
+  
+    margin-left:250px;
+}
+#C3{width: 10%;
+    position: absolute;
+  
+    margin-left:460px;
+}
+#C4{width: 10%;
+    position: absolute;
+  
+    margin-left:662px;
+}
+#C5{
+    width: 10%;
+position: absolute;
+margin-left: 50px;
+margin-top: 250px;  
+}
+#C6{
+    width: 10%;
+position: absolute;
+margin-left: 260px;
+margin-top: 250px;  
+}
+#C7{
+    width: 10%;
+position: absolute;
+margin-left: 460px;
+height: 120px;
+margin-top: 250px;  
+}
+#C8{
+    width: 10%;
+position: absolute;
+margin-left: 650px;
+margin-top: 250px;  
+}
+#C11{
+    position: absolute;
+    margin-top: 160px;  
+    margin-left: 67px;
+}
+#C22{
+    position: absolute;
+    margin-top: 160px;  
+    margin-left: 250px;
+}
+#C33{
+    position: absolute;
+    margin-top: 160px;  
+    margin-left: 470px;
+}
+#C44{
+    position: absolute;
+    margin-top: 160px;  
+    margin-left: 666px;
+}
+#C55{
+position: absolute;
+margin-top: 390px;  
+margin-left: 67px;
+}
+#C66{
+    position: absolute;
+    margin-top: 380px;  
+    margin-left: 255px;
+    }
+#C77{
+    position: absolute;
+    margin-top: 380px;  
+    margin-left: 477px; 
+}
+#C88{
+    position: absolute;
+    margin-top: 380px;  
+    margin-left: 660px; 
+}
+#C111{
+    position: absolute;
+    margin-top: 199px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 67px;
+    text-decoration: underline;
+}
+#C222{
+    position: absolute;
+    margin-top: 199px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 270px;
+    text-decoration: underline;
+}
+
+#C333{
+    position: absolute;
+    margin-top: 199px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 470px;
+    text-decoration: underline;
+}
+#C444{
+    position: absolute;
+    margin-top: 199px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 670px;
+    text-decoration: underline;
+}
+#C555{
+    position: absolute;
+    margin-top: 418px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 67px;
+    text-decoration: underline;
+}
+#C666{
+    position: absolute;
+    margin-top: 418px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 270px;
+    text-decoration: underline;
+}
+#C777{
+    position: absolute;
+    margin-top: 418px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 470px;
+    text-decoration: underline;
+}
+#C888{
+    position: absolute;
+    margin-top: 418px;  
+    color:rgb(241, 134, 134);
+    font-size:15px;
+    margin-left: 670px;
+    text-decoration: underline;
+}
+@media (max-width:900px){
+    nav{
+        margin-left: 33%;
+        margin-top:8%;
+        font-size: 12px;
+        
+    }
+    #logo{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    header{
+        height: 13vh;
+        padding-bottom: 5%;
+        
+    }
+    #maindiv{
+    height: 83vh;
+    }
+    #ContactusDiv{
+        height: 86vh; 
+        padding-bottom: 3%;
+    }
+    #Menudiv{
+        
+        height: 93vh; 
+    }
+    #opac3{
+        height: 85vh;
+        margin-left: 4%;; 
+        width:90%;
+    }
+    #opac{
+    margin-left: 14%;
+    width: 80%;
+    height: 67vh;
+    }
+    #AboutusP{
+        height: 20%;
+        width:70%;
+        margin-left: 12%;
+    }
+    #opac2{
+        margin-top: 10%;
+        margin-left: 17%;
+        width:60%;
+        
+    }
+    .p2{
+    margin-left: -14%;
+    font-size: 22px;
+}  
+
+    footer{
+    padding-left:4%;
+}
+
+}
