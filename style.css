@@ -4,7 +4,22 @@ header{
     height: 130px;
    padding-bottom: 20px;
 }
+a:hover{
+    color:lightblue;
+}
 
+#dialog{
+    background-color: rgb(247, 207, 207);
+}
+.ui-widget.ui-widget-content {
+     border: 0;
+    background:rgb(247, 207, 207);
+
+}
+button:focus{
+    outline: 0;
+
+}
 body{
     margin:0;
 }
@@ -13,6 +28,16 @@ body{
 width: 12%;
 
 }
+.img{
+    width:8%;
+    margin-left: -370px;
+}
+.cLora{
+    position: absolute;
+    margin-top:-45px;
+    margin-left:-120px;
+}
+
 nav{
     position: absolute;
     margin-top:90px;
@@ -21,6 +46,7 @@ nav{
    
  
 }
+
 a{
     
     text-decoration: none;
@@ -30,10 +56,18 @@ a{
     padding-right: 10px;
 
 }
+#Lora{
+    margin-top:180px;
+    transition: margin-top 2s;
+    cursor: pointer;
+}
+#Lora.top{
+    margin-top:56px;
+}
 #maindiv{
     position: relative;
     margin-top: -22px;
-    background-image:url("img/mm33.jpg");
+    background-image:url("img/3.jpg");
     background-size: cover;
     height: 600px;
     padding-top:16px;
@@ -70,13 +104,14 @@ footer{
     margin-top: -20px;
     height:70px;
 }
-.h31{
+.footerHeader{
     position: absolute;
+    padding-left:20px;
 }
 #ContactusDiv{
     position: relative;
     margin-top: -22px;
-    background-image:url("img/pu.jpg");
+    background-image:url("img/1.jpg");
     background-size: cover;
     height: 600px;
     padding-top:16px;
@@ -92,6 +127,10 @@ footer{
     margin-left: 270px;
     margin-bottom:40px;
 }
+.loraDiv{
+    display: none;
+    transition: width 2s;
+ }
 #contactP{
     width:60%;
     text-align: left;
@@ -99,20 +138,16 @@ footer{
     font-family: 'Lora', serif;
     margin-left: 150px;
 }
-#h11{
-    padding-bottom: 20px;
+#contactHeader{
+    padding-right: 20px;
+    padding-top: 47px;
 }
-.p2{
-    
-    text-align: left;
-padding-left: 170px;
-padding-bottom: 20px;
-font-weight: bold;
-}
+
 #Menudiv{
     position: relative;
     margin-top: -22px;
-    background-image:url("img/ncn.png");
+   
+   background-color:#d5e9ed;
     background-size: cover;
     height: 690px;
     padding-top:16px;
@@ -129,158 +164,99 @@ font-weight: bold;
     margin-bottom:40px;
 }
 
-    
 
-#C1{width: 10%;
+
+#cupcakeImg1{width: 10%;
 position: absolute;
 margin-left:50px;
+cursor: pointer;
 }
 
-#C2{width: 10%;
+#cupcakeImg2{width: 10%;
     position: absolute;
-  
+    cursor: pointer;
     margin-left:250px;
 }
-#C3{width: 10%;
+#cupcakeImg3{width: 10%;
     position: absolute;
-  
+    cursor: pointer;
     margin-left:460px;
 }
-#C4{width: 10%;
+#cupcakeImg4{width: 10%;
     position: absolute;
-  
+    cursor: pointer;
     margin-left:662px;
 }
-#C5{
+#cupcakeImg5{
     width: 10%;
 position: absolute;
 margin-left: 50px;
 margin-top: 250px;  
+cursor: pointer;
 }
-#C6{
+#cupcakeImg6{
     width: 10%;
 position: absolute;
 margin-left: 260px;
 margin-top: 250px;  
+cursor: pointer;
 }
-#C7{
+#cupcakeImg7{
     width: 10%;
 position: absolute;
 margin-left: 460px;
 height: 120px;
 margin-top: 250px;  
+cursor: pointer;
 }
-#C8{
+#cupcakeImg8{
     width: 10%;
 position: absolute;
 margin-left: 650px;
 margin-top: 250px;  
+cursor: pointer;
 }
-#C11{
+#cupcakeP1{
     position: absolute;
     margin-top: 160px;  
     margin-left: 67px;
 }
-#C22{
+#cupcakeP2{
     position: absolute;
     margin-top: 160px;  
     margin-left: 250px;
 }
-#C33{
+#cupcakeP3{
     position: absolute;
     margin-top: 160px;  
     margin-left: 470px;
 }
-#C44{
+#cupcakeP4{
     position: absolute;
     margin-top: 160px;  
     margin-left: 666px;
 }
-#C55{
+#cupcakeP5{
 position: absolute;
-margin-top: 390px;  
+margin-top: 380px;  
 margin-left: 67px;
 }
-#C66{
+#cupcakeP6{
     position: absolute;
     margin-top: 380px;  
     margin-left: 255px;
     }
-#C77{
+#cupcakeP7{
     position: absolute;
     margin-top: 380px;  
     margin-left: 477px; 
 }
-#C88{
+#cupcakeP8{
     position: absolute;
     margin-top: 380px;  
     margin-left: 660px; 
 }
-#C111{
-    position: absolute;
-    margin-top: 199px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 67px;
-    text-decoration: underline;
-}
-#C222{
-    position: absolute;
-    margin-top: 199px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 270px;
-    text-decoration: underline;
-}
 
-#C333{
-    position: absolute;
-    margin-top: 199px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 470px;
-    text-decoration: underline;
-}
-#C444{
-    position: absolute;
-    margin-top: 199px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 670px;
-    text-decoration: underline;
-}
-#C555{
-    position: absolute;
-    margin-top: 418px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 67px;
-    text-decoration: underline;
-}
-#C666{
-    position: absolute;
-    margin-top: 418px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 270px;
-    text-decoration: underline;
-}
-#C777{
-    position: absolute;
-    margin-top: 418px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 470px;
-    text-decoration: underline;
-}
-#C888{
-    position: absolute;
-    margin-top: 418px;  
-    color:rgb(241, 134, 134);
-    font-size:15px;
-    margin-left: 670px;
-    text-decoration: underline;
-}
 @media (max-width:900px){
     nav{
         margin-left: 33%;
@@ -329,10 +305,7 @@ margin-left: 67px;
         width:60%;
         
     }
-    .p2{
-    margin-left: -14%;
-    font-size: 22px;
-}  
+  
 
     footer{
     padding-left:4%;
